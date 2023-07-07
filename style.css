@@ -1,10 +1,12 @@
+/*for my practice - For every action I have clearly mention why it is done*/
+
 body 
 {
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
-  font-family: sans-serif;
+  font-family: Impact;
+  /* this padding is done wrt to the whole body */
   padding: 20px;
 }
-
 h1 
 {
   font-size: 40px;

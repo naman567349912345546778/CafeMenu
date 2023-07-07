@@ -66,21 +66,27 @@ h1, h2
   margin-bottom: 5px;
   font-size: 18px;
 }
+/* this is the flavor as well as dessert class and width is 75% of the body and this places at left as text is more. */
 .flavor, .dessert 
 {
   text-align: left;
   width: 75%;
 }
+/* this is the price class and width is 25% of the body and this places at right */
 .price 
 {
   text-align: right;
   width: 25%;
 }
 /* FOOTER */
+/* footer is the element here*/
+/* size of the footer text is 14px */
 footer 
 {
   font-size: 14px;
 }
+/* this class is for the address which is 123 Free Code Camp drive*/
+/* this margin-bottom is distance between the border and the address itself */
 .address 
 {
   margin-bottom: 5px;

@@ -2,7 +2,7 @@
 body 
 {
   /*this is the background image of the whole page*/
-  background-image: url("https://drive.google.com/file/d/1IQthEkjKAB4ts9p9GJItfVF3Lec6fICH/view?usp=sharing");
+  background-image: url("https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg");
   /*this is the font of the whole page if there is no font elsewise*/
   font-family: Impact;
   /* this padding is done wrt to the whole body */

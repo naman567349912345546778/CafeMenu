@@ -1,34 +1,33 @@
 /*for my practice - For every action I have clearly mention why it is done*/
-
 body 
 {
-  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  /*this is the background image of the whole page*/
+  background-image: url(https://drive.google.com/file/d/1IQthEkjKAB4ts9p9GJItfVF3Lec6fICH/view?usp=sharing);
+  /*this is the font of the whole page if there is no font elsewise*/
   font-family: Impact;
   /* this padding is done wrt to the whole body */
   padding: 20px;
 }
+/* h1 is element (CAMPER CAFE) */
 h1 
 {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
 }
-
 h2 
 {
   font-size: 30px;
 }
-
 .established 
 {
   font-style: italic;
 }
-
+/* the h1,h2 elements and p is aligned at centre */
 h1, h2, p 
 {
   text-align: center;
 }
-
 .menu 
 {
   width: 80%;
@@ -45,59 +44,68 @@ img
   margin-right: auto;
   margin-top: -25px;
 }
-hr {
+hr 
+{
   height: 2px;
   background-color: brown;
   border-color: brown;
 }
-
-.bottom-line {
+.bottom-line 
+{
   margin-top: 25px;
 }
 
-h1, h2 {
+h1, h2 
+{
   font-family: Impact, serif;
 }
-
-.item p {
+.item p 
+{
   display: inline-block;
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 18px;
 }
-
-.flavor, .dessert {
+.flavor, .dessert 
+{
   text-align: left;
   width: 75%;
 }
-
-.price {
+.price 
+{
   text-align: right;
   width: 25%;
 }
-
 /* FOOTER */
-
-footer {
+footer 
+{
   font-size: 14px;
 }
-
-.address {
+.address 
+{
   margin-bottom: 5px;
 }
-
-a {
+/* this feature is with anchor tag*/
+/*the default color of the tag is black*/
+a 
+{
   color: black;
 }
-
-a:visited {
-  color: black;
+/* this feature is with anchor tag*/
+/*If we actually visited this site, then after at the first visit, the color of this link is converted to yellow*/
+a:visited 
+{
+  color: yellow;
 }
-
-a:hover {
+/* this feature is with anchor tag*/
+/*If we hover our mouse to this anchor tag, then the color of this tag will convert to brown*/
+a:hover 
+{
   color: brown;
 }
-
-a:active {
-  color: brown;
+/* this feature is with anchor tag*/
+/*if in actual link is clicked then that link color will be changed to blue*/
+a:active 
+{
+  color: blue;
 }
